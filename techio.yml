@@ -1,7 +1,24 @@
 title: PHP MasterMind
 plan:
-- title: PHP on Tech.io
+- title: Welcome
   statement: markdowns/welcome.md
+- title: What are the rules?
+  statement: markdowns/rules.md
+- title: Knowledge
+  description: What you must know before starting
+  plan:
+    - title: Random numbers
+      statement: markdowns/random-numbers.md
+    - title: Read user inputs
+      statement: markdowns/user-inputs.md
+    - title: Dialog
+      statement: markdowns/dialog.md
+    - title: Ordered list
+      statement: markdowns/arrays.md
+- title: Making you script
+  statement: markdowns/game-logic.md
+- title: A solution
+  statement: markdowns/a-solution.md
 projects:
   first-project:
     root: /php-template

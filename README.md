@@ -1,1 +1,1 @@
-# php-template
+# php-mastermind

@@ -1,1 +1,1 @@
-php UniverseTest.php
+php Solution.php
