@@ -16,7 +16,7 @@ plan:
     - title: Ordered list
       statement: markdowns/arrays.md
 - title: Making you script
-  statement: markdowns/game-logic.md
+  statement: markdowns/write-your-game.md
 - title: A solution
   statement: markdowns/a-solution.md
 projects:
