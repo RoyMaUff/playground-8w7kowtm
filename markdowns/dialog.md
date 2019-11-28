@@ -11,11 +11,11 @@ Here are some hints, but you really should try to find by yourself.
 
 ::: Click to see some hints
 
-    To display some informations, you can use PHP built-in functions such as:
+To display some informations, you can use PHP built-in functions such as:
 
-    - [fwrite](https://www.php.net/manual/fr/function.fwrite.php)
-    - [echo](https://www.php.net/manual/fr/function.echo.php)
-    - [print](https://www.php.net/manual/fr/function.print.php)
+- [fwrite](https://www.php.net/manual/fr/function.fwrite.php)
+- [echo](https://www.php.net/manual/fr/function.echo.php)
+- [print](https://www.php.net/manual/fr/function.print.php)
 
 :::
 
