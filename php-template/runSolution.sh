@@ -1,1 +1,1 @@
-php solution.php
+php asolution.php
