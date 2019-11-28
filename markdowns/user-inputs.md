@@ -40,7 +40,7 @@ You can use PHP built-in functions such as:
 
 ```php runnable
 <?php
-    write("Please guess a 4 digit number: ");
+    echo "Please guess a 4 digit number: ";
     $input = fopen("php://stdin", "r");
     $guess = fgets($input);
     $guess = trim($guess);
