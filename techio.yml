@@ -1,24 +1,32 @@
 title: PHP MasterMind
+cover: cover.png
 plan:
-- title: Welcome
-  statement: markdowns/welcome.md
-- title: What are the rules?
-  statement: markdowns/rules.md
+- title: What you will Learn
+  description: Purpose of the course
+  plan:
+  - title: Welcome!
+    statement: markdowns/welcome.md
+  - title: What are the rules?
+    statement: markdowns/rules.md
 - title: Knowledge
   description: What you must know before starting
   plan:
-    - title: Random numbers
-      statement: markdowns/random-numbers.md
-    - title: Read user inputs
-      statement: markdowns/user-inputs.md
-    - title: Dialog
-      statement: markdowns/dialog.md
-    - title: Ordered list
-      statement: markdowns/arrays.md
-- title: Making you script
-  statement: markdowns/write-your-game.md
-- title: A solution
-  statement: markdowns/a-solution.md
+  - title: Random numbers
+    statement: markdowns/random-numbers.md
+  - title: Read user inputs
+    statement: markdowns/user-inputs.md
+  - title: Dialog
+    statement: markdowns/dialog.md
+  - title: Ordered list
+    statement: markdowns/arrays.md
+- title: Realisation
+  description: Time to code!
+  plan:
+  - title: Making you script
+    statement: markdowns/write-your-game.md
+  - title: A solution
+    statement: markdowns/a-solution.md
+
 projects:
   first-project:
     root: /php-template
