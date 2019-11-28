@@ -6,6 +6,6 @@ You will be ask to think about a way to transpose the games rules into an algory
 
 ## Demo
 
-@[Play Mastermind]({"stubs": [], "command": "/bin/php demo.php"})
+@[Play Mastermind]({"stubs": [], "command": "/bin/bash run.sh"})
 
 At the end of the course, you will be granted access to this implementation's source code.  
