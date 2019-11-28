@@ -3,21 +3,21 @@
 The codemaker must generate a four digit code, keeping the order of digit.
 It will be convenient to find a programming structure which can do so.
 
+## Hints
+
 Here are some hints, but you really should try to find by yourself.
-<details>
-    <summary>Click to see some hints</summary>
+::: Click to see some hints
 
     To store ordered list of string, items, or number, you can use PHP associative arrays:
 
     - [array](https://www.php.net/manual/fr/function.array.php)
     - [implode](https://www.php.net/manual/fr/function.implode.php)
     - [str_split](https://www.php.net/manual/fr/function.str-split.php)
+:::
 
-</details>
+## Solution
 
-Solution:
-<details>
-    <summary>Click to see a way to implement it</summary>
+::: Click to see a way to implement it
 
     ```php runnable
         $mysteryArray = [4, 1, 3, 2];
@@ -33,5 +33,4 @@ Solution:
         $newMysteryArray = \str_split("1234");
         \var_dump($newMysteryArray);
     ```
-
-</details>
+:::

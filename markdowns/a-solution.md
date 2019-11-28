@@ -2,8 +2,7 @@
 
 Source code of the demo.
 
-<details>
-    <summary>Click to see the source code</summary>
+::: Click to see the source code
 
     ```php
         <?php
@@ -78,4 +77,4 @@ Source code of the demo.
 
         write("OMG, GG you guessed it! :D");
     ```
-</details>
+:::

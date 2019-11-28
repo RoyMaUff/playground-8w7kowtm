@@ -13,9 +13,10 @@ The codemaker will **analyse a limited amount** of codebreaker's guesses (10), p
 
 _BONUS: You can implement a cheating word, resulting in an instant win, revealing the mystery code._  
 
+## Hints
+
 Here are some hints, but you really should try to find by yourself.
-<details>
-    <summary>Click to see some hints</summary>
+::: Click to see some hints
 
     You can use iteration control structures such as:
 
@@ -29,11 +30,11 @@ Here are some hints, but you really should try to find by yourself.
     - [str_replace](https://www.php.net/manual/fr/function.str-replace.php)
     - [fopen](https://www.php.net/manual/fr/function.fopen.php)
     - [fgets](https://www.php.net/manual/fr/function.fgets.php)
-</details>
+:::
 
-Solution: Ask user for input
-<details>
-    <summary>Click to see a way to read an user input</summary>
+## Solution: Ask user for input
+
+::: Click to see a way to read an user input
 
     ```php runnable
         write("Please guess a 4 digit number: ");
@@ -43,10 +44,9 @@ Solution: Ask user for input
         $guess = str_replace(" ", "", $guess);
         var_dump($guess);
     ```
-</details>
+:::
 
-<details>
-    <summary>Click to see a way to do something multiple times</summary>
+::: Click to see a way to do something multiple times
 
     ```php runnable
         $tries = 0;
@@ -54,4 +54,4 @@ Solution: Ask user for input
             \echo ++$tries . PHP_EOL;
         }
     ```
-</details>
+:::
