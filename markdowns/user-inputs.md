@@ -39,6 +39,7 @@ You can use PHP built-in functions such as:
 ::: Click to see a way to read an user input
 
 ```php runnable
+<?php
     write("Please guess a 4 digit number: ");
     $input = fopen("php://stdin", "r");
     $guess = fgets($input);
@@ -52,6 +53,7 @@ You can use PHP built-in functions such as:
 ::: Click to see a way to do something multiple times
 
 ```php runnable
+<?php
     $tries = 0;
     while($tries < 10){
         echo ++$tries . PHP_EOL;

@@ -24,6 +24,7 @@ To display some informations, you can use PHP built-in functions such as:
 ::: Click to see a way to implement it
 
 ```php runnable
+<?php
     function write(string $message)
     {
         fwrite(STDOUT, $message . PHP_EOL);

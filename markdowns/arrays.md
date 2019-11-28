@@ -21,16 +21,19 @@ To store ordered list of string, items, or number, you can use PHP associative a
 ::: Click to see a way to implement it
 
 ```php runnable
+<?php
     $mysteryArray = [4, 1, 3, 2];
     var_dump($mysteryArray);
 ```
 
 ```php runnable
+<?php
     $mysteryString = implode([1, 2, 3, 4]);
     var_dump($mysteryString);
 ```
 
 ```php runnable
+<?php
     $newMysteryArray = str_split("1234");
     var_dump($newMysteryArray);
 ```
