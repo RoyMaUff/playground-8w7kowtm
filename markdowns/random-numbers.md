@@ -10,12 +10,12 @@ Here are some hints, but you really should try to find by yourself.
 
 ::: Click to see some hints
 
-    To generate random numbers, you can use PHP built-in functions such as:
+To generate random numbers, you can use PHP built-in functions such as:
 
-    - [rand](https://www.php.net/manual/fr/function.rand.php)
-    - [random_int](https://www.php.net/manual/fr/function.random-int.php)
+- [rand](https://www.php.net/manual/fr/function.rand.php)
+- [random_int](https://www.php.net/manual/fr/function.random-int.php)
 
-    It is easier to use `random_int`.
+It is easier to use `random_int`.
 
 :::
 
@@ -23,9 +23,9 @@ Here are some hints, but you really should try to find by yourself.
 
 ::: Click to see a way to generate random numbers
 
-    ```php runnable
-        $n1 = \random_int(0, 9);
-        \var_dump($n1);
-    ```
+```php runnable
+    $n1 = \random_int(0, 9);
+    \var_dump($n1);
+```
 
 :::
