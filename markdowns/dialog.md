@@ -23,13 +23,13 @@ Here are some hints, but you really should try to find by yourself.
 
 ::: Click to see a way to implement it
 
-    ```php runnable
-        function write(string $message)
-        {
-            \fwrite(STDOUT, $message . PHP_EOL);
-        }
-        \write("I am a first sentence.");
-        \write("I am a second sentence.");
-    ```
+```php runnable
+    function write(string $message)
+    {
+        \fwrite(STDOUT, $message . PHP_EOL);
+    }
+    \write("I am a first sentence.");
+    \write("I am a second sentence.");
+```
 
 :::

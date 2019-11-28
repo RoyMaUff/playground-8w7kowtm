@@ -37,24 +37,24 @@ Here are some hints, but you really should try to find by yourself.
 
 ::: Click to see a way to read an user input
 
-    ```php runnable
-        write("Please guess a 4 digit number: ");
-        $input = fopen("php://stdin", "r");
-        $guess = fgets($input);
-        $guess = trim($guess);
-        $guess = str_replace(" ", "", $guess);
-        var_dump($guess);
-    ```
+```php runnable
+    write("Please guess a 4 digit number: ");
+    $input = fopen("php://stdin", "r");
+    $guess = fgets($input);
+    $guess = trim($guess);
+    $guess = str_replace(" ", "", $guess);
+    var_dump($guess);
+```
 
 :::
 
 ::: Click to see a way to do something multiple times
 
-    ```php runnable
-        $tries = 0;
-        while($tries < 10){
-            \echo ++$tries . PHP_EOL;
-        }
-    ```
+```php runnable
+    $tries = 0;
+    while($tries < 10){
+        \echo ++$tries . PHP_EOL;
+    }
+```
 
 :::

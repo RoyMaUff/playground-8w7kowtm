@@ -20,19 +20,19 @@ Here are some hints, but you really should try to find by yourself.
 
 ::: Click to see a way to implement it
 
-    ```php runnable
-        $mysteryArray = [4, 1, 3, 2];
-        \var_dump($mysteryArray);
-    ```
+```php runnable
+    $mysteryArray = [4, 1, 3, 2];
+    \var_dump($mysteryArray);
+```
 
-    ```php runnable
-        $mysteryString = \implode([1, 2, 3, 4]);
-        \var_dump($mysteryString);
-    ```
+```php runnable
+    $mysteryString = \implode([1, 2, 3, 4]);
+    \var_dump($mysteryString);
+```
 
-    ```php runnable
-        $newMysteryArray = \str_split("1234");
-        \var_dump($newMysteryArray);
-    ```
+```php runnable
+    $newMysteryArray = \str_split("1234");
+    \var_dump($newMysteryArray);
+```
 
 :::
