@@ -1,1 +1,0 @@
-php asolution.php
