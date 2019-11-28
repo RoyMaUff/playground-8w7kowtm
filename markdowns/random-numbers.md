@@ -16,6 +16,7 @@ Here are some hints, but you really should try to find by yourself.
     - [random_int](https://www.php.net/manual/fr/function.random-int.php)
 
     It is easier to use `random_int`.
+
 :::
 
 ## Solution
@@ -26,4 +27,5 @@ Here are some hints, but you really should try to find by yourself.
         $n1 = \random_int(0, 9);
         \var_dump($n1);
     ```
+
 :::

@@ -13,6 +13,7 @@ Here are some hints, but you really should try to find by yourself.
     - [array](https://www.php.net/manual/fr/function.array.php)
     - [implode](https://www.php.net/manual/fr/function.implode.php)
     - [str_split](https://www.php.net/manual/fr/function.str-split.php)
+
 :::
 
 ## Solution
@@ -33,4 +34,5 @@ Here are some hints, but you really should try to find by yourself.
         $newMysteryArray = \str_split("1234");
         \var_dump($newMysteryArray);
     ```
+
 :::

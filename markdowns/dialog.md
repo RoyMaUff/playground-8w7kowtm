@@ -16,6 +16,7 @@ Here are some hints, but you really should try to find by yourself.
     - [fwrite](https://www.php.net/manual/fr/function.fwrite.php)
     - [echo](https://www.php.net/manual/fr/function.echo.php)
     - [print](https://www.php.net/manual/fr/function.print.php)
+
 :::
 
 ## Solution
@@ -30,4 +31,5 @@ Here are some hints, but you really should try to find by yourself.
         \write("I am a first sentence.");
         \write("I am a second sentence.");
     ```
+
 :::

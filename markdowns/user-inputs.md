@@ -30,6 +30,7 @@ Here are some hints, but you really should try to find by yourself.
     - [str_replace](https://www.php.net/manual/fr/function.str-replace.php)
     - [fopen](https://www.php.net/manual/fr/function.fopen.php)
     - [fgets](https://www.php.net/manual/fr/function.fgets.php)
+
 :::
 
 ## Solution: Ask user for input
@@ -44,6 +45,7 @@ Here are some hints, but you really should try to find by yourself.
         $guess = str_replace(" ", "", $guess);
         var_dump($guess);
     ```
+
 :::
 
 ::: Click to see a way to do something multiple times
@@ -54,4 +56,5 @@ Here are some hints, but you really should try to find by yourself.
             \echo ++$tries . PHP_EOL;
         }
     ```
+
 :::
