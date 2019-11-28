@@ -22,17 +22,17 @@ To store ordered list of string, items, or number, you can use PHP associative a
 
 ```php runnable
     $mysteryArray = [4, 1, 3, 2];
-    \var_dump($mysteryArray);
+    var_dump($mysteryArray);
 ```
 
 ```php runnable
-    $mysteryString = \implode([1, 2, 3, 4]);
-    \var_dump($mysteryString);
+    $mysteryString = implode([1, 2, 3, 4]);
+    var_dump($mysteryString);
 ```
 
 ```php runnable
-    $newMysteryArray = \str_split("1234");
-    \var_dump($newMysteryArray);
+    $newMysteryArray = str_split("1234");
+    var_dump($newMysteryArray);
 ```
 
 :::

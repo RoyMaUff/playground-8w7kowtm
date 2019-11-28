@@ -7,7 +7,3 @@ A few advices:
 - Focus on the logic first, write it down in your own words, and transpose it to code afterwards
 - Comment your code!
 - Enjoy and do not cheat :)
-
-```php runnable
-    \var_dump("You can use this area to code your game!");
-```

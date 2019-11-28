@@ -24,8 +24,8 @@ It is easier to use `random_int`.
 ::: Click to see a way to generate random numbers
 
 ```php runnable
-    $n1 = \random_int(0, 9);
-    \var_dump($n1);
+    $n1 = random_int(0, 9);
+    var_dump($n1);
 ```
 
 :::

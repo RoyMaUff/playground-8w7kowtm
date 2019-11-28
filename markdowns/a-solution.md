@@ -9,15 +9,15 @@ Source code of the demo.
 
         function write(string $message)
         {
-            \fwrite(STDOUT, $message . PHP_EOL);
+            fwrite(STDOUT, $message . PHP_EOL);
         }
 
-        $n1 = \random_int(0, 9);
-        $n2 = \random_int(0, 9);
-        $n3 = \random_int(0, 9);
-        $n4 = \random_int(0, 9);
+        $n1 = random_int(0, 9);
+        $n2 = random_int(0, 9);
+        $n3 = random_int(0, 9);
+        $n4 = random_int(0, 9);
         $mysteryArray = [$n1, $n2, $n3, $n4];
-        $mystery = \implode($mysteryArray);
+        $mystery = implode($mysteryArray);
         $guess = null;
         $tries = 0;
 
@@ -32,10 +32,10 @@ Source code of the demo.
 
             // Read user input
             write("Please guess a 4 digit number: ");
-            $input = \fopen("php://stdin", "r");
-            $guess = \fgets($input);
-            $guess = \trim($guess);
-            $guess = \str_replace(" ", "", $guess);
+            $input = fopen("php://stdin", "r");
+            $guess = fgets($input);
+            $guess = trim($guess);
+            $guess = str_replace(" ", "", $guess);
 
             // CHEAT
             if ($guess === "CHEAT") {
@@ -45,11 +45,11 @@ Source code of the demo.
             }
 
             // Validate user input
-            if (!\is_numeric($guess)) {
+            if (!is_numeric($guess)) {
                 write("You need to enter numbers...");
                 continue;
             }
-            if (\strlen($guess) !== 4) {
+            if (strlen($guess) !== 4) {
                 write("You need to enter 4 numbers...");
                 continue;
             }
@@ -59,11 +59,11 @@ Source code of the demo.
 
             // Clues for user
             write("Sorry that is not the mystery number");
-            $guessArray = \str_split($guess);
+            $guessArray = str_split($guess);
             foreach ($guessArray as $index => $proposal) {
                 if ($mysteryArray[$index] == $proposal) {
                     write("{$proposal} is in the right spot!");
-                } elseif (\in_array($proposal, $mysteryArray)) {
+                } elseif (in_array($proposal, $mysteryArray)) {
                     write("{$proposal} is in the number");
                 }
             }

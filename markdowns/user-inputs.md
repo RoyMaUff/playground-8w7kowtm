@@ -54,7 +54,7 @@ You can use PHP built-in functions such as:
 ```php runnable
     $tries = 0;
     while($tries < 10){
-        \echo ++$tries . PHP_EOL;
+        echo ++$tries . PHP_EOL;
     }
 ```
 

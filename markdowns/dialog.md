@@ -26,10 +26,10 @@ To display some informations, you can use PHP built-in functions such as:
 ```php runnable
     function write(string $message)
     {
-        \fwrite(STDOUT, $message . PHP_EOL);
+        fwrite(STDOUT, $message . PHP_EOL);
     }
-    \write("I am a first sentence.");
-    \write("I am a second sentence.");
+    write("I am a first sentence.");
+    write("I am a second sentence.");
 ```
 
 :::
