@@ -16,20 +16,21 @@ _BONUS: You can implement a cheating word, resulting in an instant win, revealin
 ## Hints
 
 Here are some hints, but you really should try to find by yourself.
+
 ::: Click to see some hints
 
-    You can use iteration control structures such as:
+You can use iteration control structures such as:
 
-    - [for](https://www.php.net/manual/fr/control-structures.for.php)
-    - [while](https://www.php.net/manual/fr/control-structures.while.php)
+- [for](https://www.php.net/manual/fr/control-structures.for.php)
+- [while](https://www.php.net/manual/fr/control-structures.while.php)
 
-    You can use PHP built-in functions such as:
+You can use PHP built-in functions such as:
 
-    - [trim](https://www.php.net/manual/fr/function.trim.php)
-    - [strlen](https://www.php.net/manual/fr/function.strlen.php)
-    - [str_replace](https://www.php.net/manual/fr/function.str-replace.php)
-    - [fopen](https://www.php.net/manual/fr/function.fopen.php)
-    - [fgets](https://www.php.net/manual/fr/function.fgets.php)
+- [trim](https://www.php.net/manual/fr/function.trim.php)
+- [strlen](https://www.php.net/manual/fr/function.strlen.php)
+- [str_replace](https://www.php.net/manual/fr/function.str-replace.php)
+- [fopen](https://www.php.net/manual/fr/function.fopen.php)
+- [fgets](https://www.php.net/manual/fr/function.fgets.php)
 
 :::
 
