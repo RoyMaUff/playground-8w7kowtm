@@ -8,11 +8,11 @@ It will be convenient to find a programming structure which can do so.
 Here are some hints, but you really should try to find by yourself.
 ::: Click to see some hints
 
-    To store ordered list of string, items, or number, you can use PHP associative arrays:
+To store ordered list of string, items, or number, you can use PHP associative arrays:
 
-    - [array](https://www.php.net/manual/fr/function.array.php)
-    - [implode](https://www.php.net/manual/fr/function.implode.php)
-    - [str_split](https://www.php.net/manual/fr/function.str-split.php)
+- [array](https://www.php.net/manual/fr/function.array.php)
+- [implode](https://www.php.net/manual/fr/function.implode.php)
+- [str_split](https://www.php.net/manual/fr/function.str-split.php)
 
 :::
 
