@@ -38,7 +38,7 @@ You can use PHP built-in functions such as:
 
 ::: Click to see a way to read an user input
 
-```php runnable
+```php
 <?php
     echo "Please guess a 4 digit number: ";
     $input = fopen("php://stdin", "r");
